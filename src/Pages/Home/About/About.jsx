@@ -1,4 +1,4 @@
-import service from "../../assets/home/chef-service.jpg";
+import service from "../../../assets/home/chef-service.jpg";
 
 const About = () => {
   const backgroundImageStyles = {
