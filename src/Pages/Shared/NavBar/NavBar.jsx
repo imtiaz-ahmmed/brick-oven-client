@@ -8,7 +8,7 @@ const NavBar = () => {
       </li>
 
       <li>
-        <a>Contact Us</a>
+        <Link to="/contact">Contact Us</Link>
       </li>
       <li>
         <a>Dashboard</a>
