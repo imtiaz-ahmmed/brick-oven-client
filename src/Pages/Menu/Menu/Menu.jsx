@@ -50,6 +50,12 @@ const Menu = () => {
         img={bgSoup}
       ></Cover>
       <Items items={soups}></Items>
+      <Cover
+        heading="Salads"
+        description="Would you like to taste our Salads!"
+        img={bgSalad}
+      ></Cover>
+      <Items items={salads}></Items>
     </div>
   );
 };
