@@ -44,6 +44,12 @@ const Menu = () => {
         img={bgDrinks}
       ></Cover>
       <Items items={drinks}></Items>
+      <Cover
+        heading="Soups"
+        description="Would you like to taste our Soups!"
+        img={bgSoup}
+      ></Cover>
+      <Items items={soups}></Items>
     </div>
   );
 };
