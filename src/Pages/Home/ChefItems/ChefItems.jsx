@@ -10,9 +10,9 @@ const ChefItems = () => {
         subHeadings={"Should Try"}
       ></SectionTitle>
       <div className="flex flex-col md:flex-row gap-4 items-center ">
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-full bg-base-100 shadow-xl">
           <figure>
-            <img src={image1} alt="salad" />
+            <img className="" src={image1} alt="salad" />
           </figure>
           <div className="card-body">
             <h2 className="card-title mx-auto font-bold">Cease Salad</h2>
@@ -24,7 +24,7 @@ const ChefItems = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-full bg-base-100 shadow-xl">
           <figure>
             <img src={image2} alt="salad" />
           </figure>
@@ -32,22 +32,22 @@ const ChefItems = () => {
             <h2 className="card-title mx-auto font-bold">
               Creamy Tomato Basil Soup
             </h2>
-            <p className="mx-auto text-center">
-              Pepper,Basil leaves,Cream,vegetable,Tomatoes,Garlic,Onion.
+            <p className="mx-auto  text-center">
+              Pepper, Basil leaves, Cream, vegetable,Tomatoes, Garlic, Onion.
             </p>
             <div className="card-actions justify-center">
               <button className="btn btn-outline btn-warning">Buy Now</button>
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-full bg-base-100 shadow-xl">
           <figure>
             <img src={image3} alt="salad" />
           </figure>
           <div className="card-body">
             <h2 className="card-title mx-auto font-bold"> BBQ Chicken Pizza</h2>
-            <p className="mx-auto text-center">
-              Chicken, Barbecue sauce,Mozzarella cheese, Cilantro leaves,Olive.
+            <p className="mx-auto text-center ">
+              Chicken, Barbecue sauce,Mozzarella cheese, Cilantro leaves, Olive.
             </p>
             <div className="card-actions justify-center">
               <button className="btn btn-outline btn-warning">Buy Now</button>

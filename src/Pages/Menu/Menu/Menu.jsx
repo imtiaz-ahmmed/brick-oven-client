@@ -24,7 +24,7 @@ const Menu = () => {
       </Helmet>
       <Cover
         heading="Our Menu"
-        description="Would you like to try a dish!"
+        description="Would you like to try a dish?"
         img={bgMenu}
       ></Cover>
       <SectionTitle
@@ -34,31 +34,31 @@ const Menu = () => {
       <Items items={offers}></Items>
       <Cover
         heading="Desserts"
-        description="Would you like to taste our Desserts!"
+        description="Would you like to taste our Desserts?"
         img={bgDessert}
       ></Cover>
       <Items items={desserts}></Items>
       <Cover
         heading="Drinks"
-        description="Would you like to taste our Drinks!"
+        description="Would you like to taste our Drinks?"
         img={bgDrinks}
       ></Cover>
       <Items items={drinks}></Items>
       <Cover
         heading="Soups"
-        description="Would you like to taste our Soups!"
+        description="Would you like to taste our Soups?"
         img={bgSoup}
       ></Cover>
       <Items items={soups}></Items>
       <Cover
         heading="Salads"
-        description="Would you like to taste our Salads!"
+        description="Would you like to taste our Salads?"
         img={bgSalad}
       ></Cover>
       <Items items={salads}></Items>
       <Cover
         heading="Pizzas"
-        description="Would you like to taste our Pizzas!"
+        description="Would you like to taste our Pizzas?"
         img={bgPizza}
       ></Cover>
       <Items items={pizzas}></Items>
